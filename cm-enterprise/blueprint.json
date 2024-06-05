@@ -1,27 +1,26 @@
 {
-    "$schema": "https://playground.wordpress.net/blueprint-schema.json",
-    "steps": [
-      {
-        "step": "login"
+  "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+  "steps": [
+    {
+      "step": "login"
+    },
+    {
+      "step": "installTheme",
+      "themeZipFile": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/codemanas/demo-content/main/cm-enterprise/cm-enterprise.zip"
       },
-      {
-        "step": "installTheme",
-        "themeZipFile": {
-          "resource": "wordpress.org/themes",
-          "slug": "octane"
-        },
-        "options": {
-          "activate": true
-        }
-      },
-      {
-        "step": "importFile",
-        "file": {
-          "resource": "url",
-          "url": "https://raw.githubusercontent.com/codemanas/demo-content/main/cm-enterprise/demo.xml"
-        }
+      "options": {
+        "activate": true
       }
-    ],
-    "landingPage": "/wp-admin/site-editor.php?canvas=edit"
-  }
-  
+    },
+    {
+      "step": "importFile",
+      "file": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/codemanas/demo-content/main/cm-enterprise/demo.xml"
+      }
+    }
+  ],
+  "landingPage": "/wp-admin/site-editor.php?canvas=edit"
+}
