@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/6.5.3" created="2024-06-05 10:56" -->
+	<!-- generator="WordPress/6.5.3" created="2024-06-05 11:31" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>CM Enterprise</title>
 	<link>http://demo.cmblocks.com/cm-enterprise</link>
 	<description></description>
-	<pubDate>Wed, 05 Jun 2024 10:56:35 +0000</pubDate>
+	<pubDate>Wed, 05 Jun 2024 11:31:29 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://demo.cmblocks.com/</wp:base_site_url>
