@@ -15,10 +15,18 @@
       }
     },
     {
-      "step": "importFile",
+      "step": "importWxr",
       "file": {
         "resource": "url",
         "url": "https://raw.githubusercontent.com/codemanas/demo-content/main/cm-enterprise/demo.xml"
+      }
+    },
+    {
+      "step": "setSiteOptions",
+      "options": {
+        "show_on_front": "page",
+        "page_on_front": 13,
+        "page_for_posts": 163
       }
     }
   ],
